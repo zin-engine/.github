@@ -52,9 +52,9 @@ No frameworks, no npm installs, no bundling — just plain HTML with a little po
 
 Check installation guides for your OS:
 
-* [🪟 ZIN on Windows](guide/zin-on-windows.md)
-* [🐧 ZIN on Ubuntu/Linux](guide/zin-on-ubuntu.md)
-* [🍎 ZIN on macOS](guide/zin-on-macos.md)
+* [🪟 ZIN on Windows](../guide/zin-on-windows.md)
+* [🐧 ZIN on Ubuntu/Linux](../guide/zin-on-ubuntu.md)
+* [🍎 ZIN on macOS](../guide/zin-on-macos.md)
 
 ### 🧩 Learn the Tags
 
@@ -77,13 +77,13 @@ Includes everything from:
 > *This project started as a personal tool for building static sites without the bloat of modern frameworks. Just serve `.html`, inject a few dynamic values like time and data, and go.
 > What began as “Bro Code” turned into ZIN — a fully capable engine with support for real-time data, templating, and powerful rendering.
 > Now it’s open-source, growing, and made to be hacked on.*
-> → [Read the full dev story](All-About-Zin.md)
+> → [Read the full dev story](../All-About-Zin.md)
 
 
 ### 🤝 Contribute
 
 Pull requests welcome!
-Check out [`CONTRIBUTING.md`](CONTRIBUTING.md) to get started.
+Check out [`CONTRIBUTING.md`](../CONTRIBUTING.md) to get started.
 
 
 ### 📄 License
