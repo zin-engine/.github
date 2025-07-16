@@ -21,15 +21,27 @@ No frameworks, no npm installs, no bundling — just plain HTML with a little po
 
 ### ⚙️ Key Features
 
-- Use `.html` files as your only source of truth
-- Add dynamic data with custom `<zin>` tags
-- Render from JSON, CSV, `.txt`, MySQL or Google Sheets
-- File-based includes and loops with `<zin ForEach />`, `<zin Map />`, etc.
-- Optional templating like `template.html`
-- Smart 404/500 handling, `.env` support, and `.zinignore` equivalent
-- Zero-client exposure — all rendering is server-side
-- Runs on port 9001 by default — just point NGINX or your browser
+* Use plain `.html` files as your only source of truth — no framework or build step required
+* Dynamic rendering with custom `<zin>` tags
+* Render content from MySQL, JSON, CSV, Google Sheets (via `<zin-data />`), APIs, and `.txt` files
+* Built-in support for layouts using `template.html`
+* Clean URLs like `/about` → `about.html`
+* Smart handling of 404/500 pages, `.env` files, and `.zinignore`
+* Zero client-side JS — everything renders server-side in Go
+* Runs on port `9001` by default (can be used behind NGINX)
 
+### 🔖 ZIN Tags Overview
+
+* `<zin-time />` — Format date, time, math, and timezones
+* `<zin-include />` — Include partials or `.md`, `.txt`, or `.html` files
+* `<zin-data />` — Load from MySQL, APIs, JSON, CSV, or Google Sheets
+* `<zin-repeat />` — Loop over dynamic data arrays
+* `<zin-form />` — Secure form handling with Google reCAPTCHA
+* `<zin-set />` — Define or override variables
+* `<zin-random />` — Generate random strings, numbers, or selections
+* `<zin-crypto />` — Encode, decode, hash, or encrypt values
+
+And more tags are on the way as the engine evolves.
 
 ### 🛠️ Repos in This Org
 
@@ -55,21 +67,6 @@ Check installation guides for your OS:
 * [🪟 ZIN on Windows](../guide/zin-on-windows.md)
 * [🐧 ZIN on Ubuntu/Linux](../guide/zin-on-ubuntu.md)
 * [🍎 ZIN on macOS](../guide/zin-on-macos.md)
-
-### 🧩 Learn the Tags
-
-Full tag reference coming soon at:
-📄 `zin-tags.md`
-
-Includes everything from:
-
-* `<zin time />`
-* `<zin include />`
-* `<zin forEach />`
-* `<zin readFile />`
-* `<zin mysql />`
-* `<zin gviz />`
-* and more...
 
 
 ### 🤘 Behind-the-Scenes: How ZIN Happened
