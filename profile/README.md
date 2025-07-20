@@ -48,7 +48,7 @@ And more tags are on the way as the engine evolves.
 | Repo                                         | Description                                                     |
 | -------------------------------------------- | --------------------------------------------------------------- |
 | [`core`](https://github.com/zin-engine/core) | The Go source code for the ZIN engine. Compiles into `zin.exe`. |
-| `docs` (coming soon)                         | Usage, tag reference, guides, and CLI help.                     |
+| [`docs`](https://github.com/zin-engine/docs) | Usage, tag reference, guides, and CLI help.                     |
 | `examples` (coming soon)                     | Sample projects built using ZIN.                                |
 | `templates` (optional)                       | Starter templates or site skeletons.                            |
 
@@ -62,11 +62,7 @@ And more tags are on the way as the engine evolves.
 
 ### 📦 Install & Get Started
 
-Check installation guides for your OS:
-
-* [🪟 ZIN on Windows](../guide/zin-on-windows.md)
-* [🐧 ZIN on Ubuntu/Linux](../guide/zin-on-ubuntu.md)
-* [🍎 ZIN on macOS](../guide/zin-on-macos.md)
+Check [Installation](https://github.com/zin-engine/docs/tree/main/Installation) guides for your OS.
 
 
 ### 🤘 Behind-the-Scenes: How ZIN Happened
